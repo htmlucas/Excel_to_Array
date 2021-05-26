@@ -78,6 +78,8 @@ function verifyextension($namearquivo,$nomearquivotmp){
             movefile($nomearquivotmp,$local);
 
             csvtoarray($name_noextension);
+
+            break;
     }
 }
 
